@@ -1,7 +1,7 @@
 import 'dart:io';
 import 'dart:math';
 
-import 'package:hex_paper_generator_console/hex_paper_generator_console.dart'
+import 'package:hex_paper_generator_console/placeholder.dart'
     as hex_paper_generator_console;
 import 'package:hexagonal_grid/hexagonal_grid.dart';
 import 'package:image/image.dart' as img;
@@ -10,7 +10,7 @@ import 'package:quiver/core.dart';
 var hexes = <Hex>{};
 
 main(List<String> arguments) {
-  print('Hello world: ${hex_paper_generator_console.calculate()}!');
+  print('Hello world!');
 
   var image = img.Image(4800, 6400);
   image.fill(img.getColor(127, 127, 255, 0));

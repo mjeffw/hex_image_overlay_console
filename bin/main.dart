@@ -1,8 +1,6 @@
 import 'dart:io';
 import 'dart:math';
 
-import 'package:hex_paper_generator_console/placeholder.dart'
-    as hex_paper_generator_console;
 import 'package:hexagonal_grid/hexagonal_grid.dart';
 import 'package:image/image.dart' as img;
 import 'package:quiver/core.dart';

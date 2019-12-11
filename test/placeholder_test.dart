@@ -1,4 +1,4 @@
-import 'package:hex_paper_generator_console/hex_paper_generator_console.dart';
+import 'package:hex_image_overlay/placeholder.dart';
 import 'package:test/test.dart';
 
 void main() {

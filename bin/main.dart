@@ -8,7 +8,7 @@ import 'package:quiver/core.dart';
 var hexes = <Hex>{};
 var TRANSPARENT = img.getColor(0, 0, 0, 0);
 
-main(List<String> arguments) {
+void main(List<String> arguments) {
   print('Hello world!');
 
   // input parameters
@@ -30,8 +30,8 @@ main(List<String> arguments) {
       .readAsBytesSync());
 
   // Given a right triangle, ABC, where AB and AC are the sides and BC is the
-  // hypotenuse, find the hypotenuse of a right triangle where AB =
-  // pixelsPerYard/2.0, and angle ACB is 60 degrees.
+  // hypotenuse: find the hypotenuse where AB = pixelsPerYard/2.0, and angle
+  // ACB is 60 degrees.
   var edge = (0.5 * pixelsPerYard) / sin(60.0 * pi / 180.0);
 
   // var image = img.Image(width, height);

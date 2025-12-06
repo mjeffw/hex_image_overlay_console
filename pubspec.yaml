@@ -8,9 +8,7 @@ environment:
   sdk: ">=2.5.0 <3.0.0"
 
 dependencies:
-  #  image: ^2.1.9
-  image:
-    path: /Users/jw9615/Personal/git/image-1
+  image: ^2.1.10
   hexagonal_grid: ^1.0.5
   quiver: ^2.1.2+1
 #  path: ^1.6.0
